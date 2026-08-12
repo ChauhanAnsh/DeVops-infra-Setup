@@ -62,5 +62,6 @@
 # #   network_interface_id    = module.virtual_machines.nic_ids[each.key]
 # #   ip_configuration_name   = module.virtual_machines.nic_ip_configurations[each.key]
 # #   backend_address_pool_id = module.load_balancer.backend_address_pool_ids["lb"]
-# # }
+#
+ # }
 
